@@ -16,7 +16,7 @@ This will build and run the ASP.NET Core backend, the Angular frontend, and the 
 
 ## Database
 
-Database will be automatically created by vua EF Migrations upon run of backend.
+Database will automatically be created via EF Migrations upon run of backend.
 
 ## Frontend
 
