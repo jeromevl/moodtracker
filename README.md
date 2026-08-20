@@ -1,4 +1,4 @@
-# InterviewProjectTemplate
+# Mood Tracker
 
 ## Project Structure
 
