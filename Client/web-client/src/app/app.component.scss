@@ -1,0 +1,25 @@
+.main-header {
+    background-color: #000000;
+    padding: 1rem;
+
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .nav-link {
+            color: #ecf0f1;
+            text-decoration: none;
+            transition: opacity 0.2s ease, font-weight 0.2s ease;
+
+            &:hover {
+                opacity: 0.8;
+            }
+
+            &.active {
+                color: #ffffff;
+                font-weight: bold;
+            }
+        }
+    }
+}

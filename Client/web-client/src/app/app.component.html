@@ -1,0 +1,12 @@
+<header class="main-header">
+    <nav>
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="nav-link">
+            Log Mood
+        </a>
+        <a routerLink="/admin" routerLinkActive="active" class="nav-link">Admin Dashboard</a>
+    </nav>
+</header>
+
+<main class="main-content">
+    <router-outlet></router-outlet>
+</main>
